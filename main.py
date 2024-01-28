@@ -1,9 +1,3 @@
-# gym-envs
-Forked from gym-walk (https://github.com/mimoralea/gym-walk.git)
-
-## Use
-
-```python
 import gym
 import numpy as np
 
@@ -33,5 +27,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-```
