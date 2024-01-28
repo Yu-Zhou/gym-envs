@@ -60,7 +60,7 @@ class WalkEnv(gym.Env):
         p, s, r, d = transitions[i]
         self.s = s
         self.lastaction = action
-        return (int(s), r, d, {"prob": p})
+        return (int(s), r, d, False, {"prob": p}) # to resolve unwrap error from gym packlage. Assume no timelimit-oriented terminal
 
     def reset(
         self,

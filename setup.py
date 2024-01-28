@@ -1,13 +1,13 @@
 from setuptools import setup
 
 setup(
-    name='gym_walk',
-    version='0.0.2',
-    description='Gym walk environment - useful to replicate Random Walk experiments',
-    url='https://github.com/mimoralea/gym-walk',
-    author='Miguel Morales',
-    author_email='mimoralea@gmail.com',
-    packages=['gym_walk', 'gym_walk.envs'],
+    name='gym_envs',
+    version='0.0.3',
+    description='Gym envs - useful for conducting RL experiments',
+    url='https://github.com/Yu-Zhou/gym-envs',
+    author='Isabella Zhou',
+    author_email='isabella910207@gmail.com',
+    packages=['gym_envs', 'gym_envs.envs'],
     license='MIT License',
-    install_requires=['gym'],
+    install_requires=['gym==0.26.2','six==1.16.0'],
 )
